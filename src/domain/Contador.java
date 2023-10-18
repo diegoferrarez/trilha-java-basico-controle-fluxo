@@ -7,14 +7,16 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) {
 
-        System.out.println("-------------------Desafio Controle de fluxo---------------------");
+        System.out.println("### Desafio Controle de fluxo - Digital Innovation One ###");
         System.out.println("A seguir você deverá informar dois valores.");
 
         Scanner terminal = new Scanner(System.in);
-        System.out.println("Informe o primeiro parâmetro");
+        System.out.println("Informe o primeiro parâmetro para gravação");
         int parametroUm = terminal.nextInt();
-        System.out.println("Informe o segundo parâmetro");
+        System.out.println("Informe o segundo parâmetro para gravação");
         int parametroDois = terminal.nextInt();
+
+        System.out.println("A abaixo será realizado a contagem de interação");
 
         try {
             contar(parametroUm, parametroDois);
